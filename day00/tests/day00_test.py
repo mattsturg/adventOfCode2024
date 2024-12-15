@@ -1,5 +1,5 @@
 import pytest
-import day00
+import day02
 
 
 @pytest.fixture
@@ -13,4 +13,4 @@ def real_list():
 
 
 def test_day00(real_list):
-    assert day00.print_list(real_list) == 1
+    assert day02.print_list(real_list) == 1
